@@ -1,9 +1,9 @@
 def solution(arr):
     answer = []
-    if len(arr)==1:
-        return arr
+#     if len(arr)==1:
+#         return arr
     
-    for i in range(1,11):
+    for i in range(0,11):
         if len(arr)<2**i:
             for k in range((2**i)-len(arr)):
                 arr.append(0)
